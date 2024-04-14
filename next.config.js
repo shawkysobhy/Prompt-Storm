@@ -1,6 +1,8 @@
 const nextConfig = {
 	experimental: {
 		appDir: true,
+		missingSuspenseWithCSRBailout: false,
+
 		serverComponentsExternalPackages: ['mongoose'],
 	},
 	images: {
